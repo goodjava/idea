@@ -1,0 +1,53 @@
+<templateSet group="user">
+  <template name="main" value="public static void main(String... args) {&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="syso" value="System.out.println($END$);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="logger" value="private static final Logger logger = LoggerFactory.getLogger($CLASS_NAME$.class);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="xiaohuang" value="$script$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="script" expression="groovyScript(&quot;/Users/zhangzhiyong/programs/groovy_script/test.groovy&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ttt" value="$script$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="script" expression="groovyScript(&quot;def l=[1,2,3,4];l&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tab" value="$script$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="script" expression="groovyScript(&quot;/Users/zhangzhiyong/IdeaProjects/myserver/mygroovy/src/main/resources/groovy_script/template.groovy&quot;,qualifiedClassName(),&quot;bbbbb&quot;,suggestFirstVariableName(&quot;Object&quot;),lineCommentStart())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="eee" value="$script$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="script" expression="groovyScript(&quot;/Users/zhangzhiyong/IdeaProjects/myserver/mygroovy/src/main/resources/groovy_script/template.groovy&quot;)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="xiaomin" value="$aaa$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="aaa" expression="very_good(&quot;----------&gt;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cr" value="/**&#10; * @author goodjava@qq.com&#10; */" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
