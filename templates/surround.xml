@@ -1,7 +1,0 @@
-<templateSet group="surround">
-  <template name="ZZY" value="&lt;$SELECTION$&gt;" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-</templateSet>
